@@ -1,0 +1,50 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Desktop */
+@media screen /* 2560px = 160em */
+  and (max-width: 160em)
+  /* 1280px = 80em */
+  and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: blue;
+  }
+
+}
+
+/* Tablet */
+@media screen 
+   /* 1279 = 79.9375em */  
+  and (max-width: 79.9375em)
+   /* 768px = 160em */
+  and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: green;
+  }
+
+}
+
+/* Mobile */
+@media screen
+  /* 767px = 47.9375em */
+  and (max-width: 47.9375em)
+  /* 320px = 20em */
+  and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+	body {
+       background: red;
+	}
+	
+}
