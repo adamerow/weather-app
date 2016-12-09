@@ -2,8 +2,37 @@
 YOUR STYLES
 *******************/
 
+.forecast
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
 
+.today
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
 
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+.buttons
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
 
 /********************
 MEDIA QUERIES
@@ -12,13 +41,14 @@ MEDIA QUERIES
 @media screen /* 2560px = 160em */
   and (max-width: 160em)
   /* 1280px = 80em */
-  and (min-width: 80em) { 
+  and (min-width: 80em)
+{ 
   
-  /* Diagnostic Styling. */
-  body {
-       background: blue;
-  }
-
+/* Diagnostic Styling. */
+    body
+    {
+        background: blue;
+    }
 }
 
 /* Tablet */
@@ -26,13 +56,14 @@ MEDIA QUERIES
    /* 1279 = 79.9375em */  
   and (max-width: 79.9375em)
    /* 768px = 160em */
-  and (min-width: 48em)  {
+  and (min-width: 48em) 
+{
 
-  /* Diagnostic Styling. */
-  body {
+    /* Diagnostic Styling. */
+    body
+    {
        background: green;
-  }
-
+    }
 }
 
 /* Mobile */
@@ -40,11 +71,12 @@ MEDIA QUERIES
   /* 767px = 47.9375em */
   and (max-width: 47.9375em)
   /* 320px = 20em */
-  and (min-width: 20em) { 
+  and (min-width: 20em)
+{ 
 
-  /* Diagnostic Styling. */
-	body {
-       background: red;
-	}
-	
+    /* Diagnostic Styling. */
+    body
+    {
+        background: red;
+    }
 }
